@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width:  1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 57px;
+}
+
+.btn_play_down{
+    width: 193px;
+    height: 82px;
+    background-color: #F1A900;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+}
+
+
+.right_part{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+select{
+    background-color: transparent;
+    color: white;
+    border:none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+}
+option{
+    background-color: black;
+}
+.nav{
+    width: 100%;
+    background: #222222;
+    display: flex;
+    padding: 15px 285px;
+    gap: 101px;
+    
+}
+
+ul{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: center;
+    display: flex;
+    gap: 101px;
+    list-style: none;
+}
+.main{
+    height: 797px;
+   background-image: url(./assets/img/image\ 5.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.pubg_logo{
+    height: 797px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
+}
+.bt_1{
+    width: 235px;
+    height: 73px;
+    background-color: #F1A900;
+    font-family: sans-serif ;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+    border: none;
+}
+.bt_2{
+    color: white;
+    width: 235px;
+    height: 73px;
+    background-color: #000;
+    font-family: sans-serif ;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+    border: none;
+}
+.pubg_text{
+    width: 966px;
+    height: 202px;
+    border-radius: 10px ;
+    background-color: #F1A900;
+    opacity: 0.3;
+    position: relative;
+}
+.div_0{
+   display: flex;
+   gap: 64px; 
+}
+.p{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 64px;
+    text-align: center;
+    color:  #FFFFFF;
+    padding: 31px 22px;
+    z-index: 111;
+    bottom: 3.5rem;
+}
+ .footer{
+    height: 101px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+ }  
+
+.imgs{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 56px;
+   
+}
+.imgs1{
+   display: flex;
+   gap: 54px;
+}
